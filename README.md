@@ -8,14 +8,14 @@ The Railway Reservation System is a software application that allows users to bo
 - Train Search: Users can search for trains based on their source and destination stations, and view available train options.
 - Seat Availability: Users can check the availability of seats on a particular train for a specific date.
 - Ticket Booking: Users can book train tickets by selecting their preferred train, date, and seat.
-- Ticket Cancellation: Users can cancel their booked tickets and receive a refund based on the cancellation policy.
-- Reservation Management: Users can view and manage their booked tickets, including printing e-tickets.
+- Ticket Cancellation: Users can cancel their booked tickets.
+  
 
 ## Installation
 1. Clone the repository: `git clone https://github.com/nabinghosh/railway-reservation-system.git`
-2. Install the required dependencies: `npm install`
+2. Install the required dependencies: `yarn install`
 3. Configure the database connection in the `config.js` file.
-4. Start the application: `npm start`
+4. Start the application: `yarn dev`
 
 ## Screenshots
 
